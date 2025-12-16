@@ -230,3 +230,15 @@ export {
   effects,
   dataStyle,
 };
+
+const style = {
+  theme: "light",
+  brand: "orange",
+  accent: "orange",
+  neutral: "slate",
+  border: "conservative",
+  solid: "contrast",
+  solidStyle: "flat",
+  surface: "translucent",
+  transition: "all",
+}
