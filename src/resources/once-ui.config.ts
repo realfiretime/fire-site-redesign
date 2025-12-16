@@ -13,8 +13,8 @@ import {
 } from "@/types";
 import { home } from "./index";
 
-// IMPORTANT: Replace with your own domain address - it's used for SEO in meta tags and schema
-const baseURL: string = "https://demo.magic-portfolio.com";
+// IMPORTANT: CHANGE WHEN UPDATED TO FIRETIME.ME, THIS IS USED FOR SEO
+const baseURL: string = "https://new.firetime.me";
 
 const routes: RoutesConfig = {
   "/": true,
