@@ -25,8 +25,9 @@ export const Footer = () => {
           <Text onBackground="neutral-weak">© {currentYear} /</Text>
           <Text paddingX="4">{person.name}</Text>
           <Text onBackground="neutral-weak">
-            <SmartLink href="https://inc.firetime.me">Copyright FireTime Inc 2026</SmartLink>
+            <SmartLink href="https://firetime.me">Copyright FireTime Inc 2026</SmartLink>
           </Text>
+          <Text onBackground="neutral-weak"> / This site was made entirely by human intelligence</Text>
         </Text>
         <Row gap="16">
           {social.map(

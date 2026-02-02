@@ -5,7 +5,7 @@ const person: Person = {
     firstName: "FireTime",
     lastName: "",
     name: `FireTime`,
-    role: "Professional idiot",
+    role: "",
     avatar: "/images/avatar.jpg",
     email: "firetime@firetime.me",
     location: "America/New_York",
@@ -71,14 +71,14 @@ const home: Home = {
         display: true,
         title: (
             <Row gap="12" vertical="center">
-                <strong className="ml-4">FireTime</strong>{" "}
+                <strong className="ml-4">firetime.me</strong>{" "}
                 <Line background="brand-alpha-strong" vert height="20" />
                 <Text marginRight="4" onBackground="brand-medium">
-                    Featured work
+                    Back to main site, this site is still experemental
                 </Text>
             </Row>
         ),
-        href: "/work/building-once-ui-a-customizable-design-system",
+        href: "https://firetime.me",
     },
     subline: (
         <>
@@ -233,7 +233,7 @@ const about: About = {
 const blog: Blog = {
     path: "/blog",
     label: "Blog",
-    title: "Writing about design and tech...",
+    title: "Random stuff",
     description: `What have I been doing, well thats for me to know and you to find out`,
     // Create new blog posts by adding a new .mdx file to app/blog/posts
     // All posts will be listed on the /blog route
@@ -241,7 +241,7 @@ const blog: Blog = {
 
 const work: Work = {
     path: "/work",
-    label: "Work",
+    label: "Projects",
     title: `Projects – ${person.name}`,
     description: `Design and dev projects by ${person.name}`,
     // Create new project pages by adding a new .mdx file to app/blog/posts

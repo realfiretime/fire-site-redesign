@@ -195,17 +195,16 @@ const schema: SchemaConfig = {
 
 // social links
 const sameAs: SameAsConfig = {
-  threads: "https://www.threads.com/@once_ui",
-  linkedin: "https://www.linkedin.com/company/once-ui/",
-  discord: "https://discord.com/invite/5EyAQ4eNdS",
+  youtube: "https://youtube.com/@firetime.official",
+  twitch: "https://twitch.tv/firetimeofficial",
 };
 
 // social sharing configuration for blog posts
 const socialSharing: SocialSharingConfig = {
   display: true,
   platforms: {
-    x: true,
-    linkedin: true,
+    x: false,
+    linkedin: false,
     facebook: false,
     pinterest: false,
     whatsapp: false,
@@ -213,6 +212,10 @@ const socialSharing: SocialSharingConfig = {
     telegram: false,
     email: true,
     copyLink: true,
+    youtube: true,
+    twitch: true,
+    bluesky: true,
+    mastodon: true,
   },
 };
 
