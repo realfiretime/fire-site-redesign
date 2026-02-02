@@ -188,15 +188,15 @@ const mailchimp: MailchimpConfig = {
 const schema: SchemaConfig = {
   logo: "",
   type: "Organization",
-  name: "Once UI",
+  name: "FireTime",
   description: home.description,
-  email: "lorant@once-ui.com",
+  email: "firetime@firetime.me",
 };
 
 // social links
 const sameAs: SameAsConfig = {
-  youtube: "https://youtube.com/@firetime.official",
-  twitch: "https://twitch.tv/firetimeofficial",
+  youtube: "https://www.youtube.com/@firetime.official",
+  twitch: "https://www.twitch.tv/firetimeofficial",
 };
 
 // social sharing configuration for blog posts
@@ -210,12 +210,8 @@ const socialSharing: SocialSharingConfig = {
     whatsapp: false,
     reddit: false,
     telegram: false,
-    email: true,
+    email: false,
     copyLink: true,
-    youtube: true,
-    twitch: true,
-    bluesky: true,
-    mastodon: true,
   },
 };
 
