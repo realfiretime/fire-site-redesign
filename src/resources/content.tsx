@@ -311,8 +311,6 @@ const gallery: Gallery = {
       orientation: "horizontal",
     },
   ],
-
->>>>>>> origin/main
 };
 
 export { person, social, newsletter, home, about, blog, work, gallery };
