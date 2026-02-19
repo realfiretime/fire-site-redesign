@@ -18,7 +18,7 @@
     "gray-matter": "^4.0.3",
     "lint-staged": "^16.1.5",
     "next": "^16.0.10",
-    "next-mdx-remote": "^5.0.0",
+    "next-mdx-remote": "^6.0.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-icons": "^5.5.0",
@@ -32,8 +32,13 @@
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.5",
     "baseline-browser-mapping": "^2.9.19",
-    "eslint": "^9.25.0",
+    "eslint": "^4.1.1",
     "typescript": "^5.8.3",
     "tzdata": "^1.0.44"
+  },
+  "overrides": {
+    "ajv": "8.17.1",
+    "minimatch": "10.2.1",
+    "cross-spawn": "7.0.6"
   }
 }
