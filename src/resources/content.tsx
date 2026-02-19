@@ -55,18 +55,6 @@ const social: Social = [
     essential: true,
   },
   {
-    name: "Mastodon",
-    icon: "mastodon",
-    link: "https://www.mastodon.social/@firetime",
-    essential: false,
-  },
-  {
-    name: "Bluesky",
-    icon: "bluesky",
-    link: "https://bsky.app/profile/firetime.me",
-    essential: false,
-  },
-  {
     name: "Email",
     icon: "email",
     link: `mailto:${person.email}`,
@@ -138,17 +126,15 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
+        company: "velit ipsum id",
         timeframe: "2022 - Present",
         role: "Senior Design Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20%
-            increase in user engagement and 30% faster load times.
+            Deserunt veniam cupidatat reprehenderit sint voluptate pariatur est esse.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows,
-            enabling designers to iterate 50% faster.
+            Consectetur sit qui deserunt ullamco tempor.
           </>,
         ],
         images: [
@@ -162,17 +148,15 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
+        company: "nulla veniam velit sunt",
         timeframe: "2018 - 2022",
         role: "Lead Designer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple
-            platforms, improving design consistency by 40%.
+            DCommodo mollit laborum labore proident magna velit nisi. Aliqua commodo veniam commodo.
           </>,
           <>
-            Led a cross-functional team to launch a new product line,
-            contributing to a 15% increase in overall company revenue.
+            Esse occaecat magna sint elit. Lorem irure incididunt deserunt fugiat.
           </>,
         ],
         images: [],
@@ -184,12 +168,12 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "irure",
+        description: <>Quis magna amet et enim cupidatat cillum aute occaecat dolor qui fugiat pariatur non veniam ullamco.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "non",
+        description: <>Ut veniam laboris fugiat laboris..</>,
       },
     ],
   },
