@@ -25,11 +25,11 @@ const newsletter: Newsletter = {
   display: true,
   title: (
     <>
-      Subscribe to {person.firstName}'s newsletter? i dont know why you would do
+      Subscribe to the firetime newsletter? i dont know why you would do
       that
     </>
   ),
-  description: <>My weekly newsletter about literaly nothing</>,
+  description: <>My newsletter about literaly nothing</>,
 };
 
 const social: Social = [
@@ -106,9 +106,9 @@ const about: About = {
   avatar: {
     display: true,
   },
-  calendar: {
+  steam: {
     display: false,
-    link: "https://cal.com",
+    link: "https://steamcommunity.com/id/firetime_",
   },
   intro: {
     display: true,
@@ -116,8 +116,7 @@ const about: About = {
     description: (
       <>
         Hey there, im firetime, i make things on the internet. from apps to
-        websites, and some games, i dont know whatelse to put here so, go
-        outside and touch grass maby?
+        websites, and some games, i dont know whatelse to put here so.
       </>
     ),
   },
