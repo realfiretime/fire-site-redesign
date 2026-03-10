@@ -45,7 +45,7 @@ const social: Social = [
   {
     name: "Youtube",
     icon: "youtube",
-    link: "https://www.youtube.com/@firetime.official",
+    link: "https://www.youtube.com/@realfiretime",
     essential: true,
   },
   {
